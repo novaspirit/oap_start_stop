@@ -6,4 +6,14 @@ YouTube Video [Use For Reference](https://youtu.be/ko-udLtaPk8)
 
 ![](/startshutdown_bb.jpg)
 
+
+## startup script
+Load the `tart_script.ino` to your esp01 
+
+## shutdown script
+type in terminal
+`sudo crontab -e`
+
+add this to the end of crontab
+
 `@reboot /usr/bin/python3 /home/pi/listen_for_shutdown.py >/dev/null 2>&1`
