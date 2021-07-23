@@ -11,7 +11,10 @@ YouTube Video [Use For Reference](https://youtu.be/ko-udLtaPk8)
 Load the `start_script.ino` to your esp01 
 
 ## shutdown script
+download `listen_for_shutdown.py` to your `/home/pi/` folder
+
 type in terminal
+
 `sudo crontab -e`
 
 add this to the end of crontab
