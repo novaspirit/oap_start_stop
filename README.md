@@ -8,7 +8,7 @@ YouTube Video [Use For Reference](https://youtu.be/ko-udLtaPk8)
 
 
 ## startup script
-Load the `tart_script.ino` to your esp01 
+Load the `start_script.ino` to your esp01 
 
 ## shutdown script
 type in terminal
